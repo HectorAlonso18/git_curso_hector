@@ -6,3 +6,5 @@ void saltar();
 void girar();
 
 void avanzar();
+
+void calcular();
