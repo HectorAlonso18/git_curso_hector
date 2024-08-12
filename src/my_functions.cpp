@@ -13,3 +13,7 @@ void girar(){
     ////
     //
 }
+
+void avanzar(){
+    
+}
