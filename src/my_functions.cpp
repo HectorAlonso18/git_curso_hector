@@ -7,3 +7,7 @@ void imprimir(){
 void saltar(){
 
 }
+
+void girar(){
+    
+}
