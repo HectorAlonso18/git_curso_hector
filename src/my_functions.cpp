@@ -9,5 +9,7 @@ void saltar(){
 }
 
 void girar(){
-    
+    ////7
+    ////
+    //
 }
