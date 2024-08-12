@@ -3,6 +3,7 @@
 #include "lightninglib/TankChassis.h"
 #include "lightninglib/TankChassis.hpp"
 #include "pros/motors.h"
+#include "pros/rtos.hpp"
 
 //Chassis declaration, for Odometry with a one tracking wheel using ADI, ENCODER 
 lightning::TankChassis my_chassis( 
@@ -225,6 +226,6 @@ void opcontrol() {
    /**
    If you want tank configuration use: my_chassis.tank(master); 
    */
-   pros::delay(lightning::util::DELAY_TIME); 
+   pros::delay(10); 
   }
 }
